@@ -1,17 +1,19 @@
->**Note**: Please **fork** the current Udacity repository so that you will have a **remote** repository in **your** Github account. Clone the remote repository to your local machine. Later, as a part of the project "Post your Work on Github", you will push your proposed changes to the remote repository in your Github account.
+### Intro
+This project was created by Michael Kieda, as part of the Udacity nanodegree
+program:  Programming for Data Science with Python
 
 ### Date created
-Include the date you created this project and README file.
+Project and README file created on March 13, 2021
 
 ### Project Title
-Replace the Project Title
-
-### Description
-Describe what your project is about and what it does
+Explore US Bikeshare Data
 
 ### Files used
-Include the files used
+bikeshare_kieda.py
+chicago.csv
+new_york_city.csv
+washington.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+https://classroom.udacity.com/nanodegrees/nd104/parts/53470233-d93c-4a31-a59f-11388272fe6b
+https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository#Cloning-an-Existing-Repository
