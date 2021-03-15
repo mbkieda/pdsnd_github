@@ -148,8 +148,6 @@ def station_stats(df):
     # display most frequent combination of start station and end station trip
     station_combo = \
     df.groupby('Start Station')['End Station'].value_counts().index[0]
-    """print('Most frequent combination of start and end stations:  ',\
-    station_combo[0], 'and', station_combo[1])"""
     print('Most frequent combination of start and end stations:  {} and {}'\
     .format(station_combo[0], station_combo[1]))
 
@@ -199,13 +197,12 @@ def user_stats(df):
     .rename(columns = {'User Type':''}))
 
     # Display counts of gender
-    print('\n')
     if 'Gender' in df:
-        print('Gender  Count')
+        print('\n\nGender  Count')
         print(df['Gender'].value_counts().to_frame()\
         .rename(columns = {'Gender':''}))
     else:
-        print('Sorry, gender data not available in this data set\n')
+        print('\n\nSorry, gender data not available in this data set\n')
 
 
     # Display earliest, most recent, and most common year of birth
