@@ -148,8 +148,10 @@ def station_stats(df):
     # display most frequent combination of start station and end station trip
     station_combo = \
     df.groupby('Start Station')['End Station'].value_counts().index[0]
-    print('Most frequent combination of start and end stations:  ',\
-    station_combo[0], 'and', station_combo[1])
+    """print('Most frequent combination of start and end stations:  ',\
+    station_combo[0], 'and', station_combo[1])"""
+    print('Most frequent combination of start and end stations:  {} and {}'\
+    .format(station_combo[0], station_combo[1]))
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
