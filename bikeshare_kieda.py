@@ -1,3 +1,7 @@
+"""
+Bikeshare Project
+Developed by Michael Kieda in January of 2021
+"""
 import time
 import pandas as pd
 import numpy as np
