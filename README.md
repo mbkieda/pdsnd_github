@@ -25,3 +25,4 @@ containing the project files and run "python bikeshare_kieda.py"
 https://classroom.udacity.com/nanodegrees/nd104/parts/53470233-d93c-4a31-a59f-11388272fe6b
 https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository#Cloning-an-Existing-Repository
 https://education.github.com/git-cheat-sheet-education.pdf
+https://devconnected.com/how-to-undo-git-add-command/
