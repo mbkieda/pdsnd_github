@@ -1,6 +1,7 @@
 ### Intro
-This project was created by Michael Kieda, as part of the Udacity nanodegree
-program:  Programming for Data Science with Python
+This project, created by Michael Kieda in February of 2021,
+is part of the Udacity nanodegree program:
+Programming for Data Science with Python
 
 ### Date created
 Project and README file created on March 13, 2021
